@@ -38,9 +38,9 @@ while i>1:
     i = i - 1
 
 # Example 3 - Can we go to the movies?
-answer = input("Can we got to the movies? ")
+answer = input("Can we go to the movies? ")
 while answer == "no":
-    answer = input("Can we got to the movies? ")
+    answer = input("Can we go to the movies? ")
 
 print("Yay, thank you!")
 
