@@ -73,19 +73,5 @@ else:
 
 
 ####    HOMEWORK CODE    ####
-import random
-
-boss_lives = 5
-
-while boss_lives != 0:
-    boss_nb = random.randrange(1,10)
-    player_nb = int(input("What is your guess: "))
-
-    if boss_nb == player_nb:
-        print("You and the final boss both guessed: " + boss_nb)
-        print("\nYour attack was successful!")
-        boss_lives -= 1
-
-print("\nYou have defeated the boss!")
 
 
