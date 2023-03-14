@@ -64,12 +64,12 @@ else:
 #   You must build a game where a user must face a final boss. In this dual, the player must guess the boss's number to attack!
 
 #   Here are the requirements:
-#   1) The final boss has a total of 5 lives. Thie means the WHILE loop stops when his lives reach 0.
+#   1) The final boss has a total of 5 lives (create a variable). This means the WHILE loop stops when his lives reach 0.
 #   2) The final boss's number is generated randomly between 1 and 10.
-#   3) After each guess (done with input), the boss's number changes. 
+#   3) After each user guess (done with input), the boss's number changes. 
 #       HINT: This means that the random.randrange has to be repeated after each guess.
 #   4) Your attack takes a life off of the boss.
-#   5) Print 'You have defeated the boss!' at the end.
+#   5) Print 'You have defeated the boss!' when you have defeated the boss.
 
 
 ####    HOMEWORK CODE    ####
@@ -87,3 +87,5 @@ while boss_lives != 0:
         boss_lives -= 1
 
 print("\nYou have defeated the boss!")
+
+
